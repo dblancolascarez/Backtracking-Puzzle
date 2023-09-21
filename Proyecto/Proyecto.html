@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width = device - width, initial-scale:1.0">
+    <title>Puzzle</title>
+    <link rel = "stylesheet" href = "Proyecto.css">
+    <script src = "Proyectoprueba.js"></script>
+    <script src="tile.js"></script>
+    
+  </head>
+
+  <body>
+    <div class="header">
+        <h1>Puzzle</h1>
+    </div>
+    <form action = "#">
+      <label for = "Tamaño"> Dimensiones </label>
+      <select name = "Dimensiones" id = "Tamaño">
+        <option value = "3" selected> 3x3 </option>
+        <option value = "4" > 4x4 </option>
+        <option value = "5" > 5x5 </option>
+        <option value = "6" > 6x6 </option>
+        <option value = "7" > 7x7 </option>
+        <option value = "8" > 8x8 </option>
+        <option value = "9" > 9x9 </option>
+        <option value = "10" > 10x10 </option>
+        <option value = "11" > 11x11 </option>
+        <option value = "12" > 12x12 </option>
+        <option value = "13" > 13x13 </option>
+        <option value = "14" > 14x14 </option>
+        <option value = "15" > 15x15 </option>
+        <option value = "16" > 16x16 </option>
+        <option value = "17" > 17x17 </option>
+        <option value = "18" > 18x18 </option>
+        <option value = "19" > 19x19 </option>
+        <option value = "20" > 20x20 </option>
+      </select>
+    </form>
+    <hr>
+    <canvas id = "board" width = "800" height = "800"></canvas> 
+    <div id = "Buttons"> 
+      <div class = "Solve"> Solve </div>
+      <div class = "Shuffle"> Shuffle </div>
+    </div>
+    <h1>Movimientos: <span id = "Movimientos" > 0 </span></span></h1> 
+    
+  </body>
+  
+
+</html>

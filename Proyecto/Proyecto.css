@@ -1,0 +1,115 @@
+body { /* Configuracion del texto de la pagina */
+    background-color: rgb(32, 65, 116);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+hr{
+    width: 600px;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    background: rgb(25, 51, 90);
+    color: white;
+    font-size: 20px;
+}
+
+#board { /* Configuracion del tablero */
+    width: 800px;
+    height: 800px;
+    background-color:rgb(0, 0, 0);
+    border: 5px solid #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Buttons{
+    display:flex;
+    flex-direction:row;
+    width:50vh;
+    height:10vh;
+    background-color:rgb(25, 51, 90);
+    border-radius:8px;
+    margin: 0 auto;
+}
+.Solve{
+    flex-grow:1;
+    background-color:rgb(25, 51, 90);
+    color:white;
+    text-align:center;
+    font-size:3vh;
+    font: weight 2px;
+    padding-top:5%;
+    margin:4px;
+    cursor: pointer;
+    transition:font-size 0.5s;
+}
+.Shuffle{
+    flex-grow:1;
+    background-color:rgb(25, 51, 90);
+    color:white;
+    text-align:center;
+    font-size:3vh;
+    font: weight 2px;
+    padding-top:5%;
+    margin:4px;
+    cursor: pointer;
+    transition:font-size 0.5s;
+}
+.Solve:hover{
+    opacity:1;
+    font-size:3.5vh;
+}
+.Shuffle:hover{
+    opacity:1;
+    font-size:3.5vh;
+}
+
+.Solve.active{
+    opacity:1;
+    font-size:3.5vh;
+}
+.Shuffle.active{
+    opacity:1;
+    font-size:3.5vh;
+}
+.tile { /* Configuracion de las casillas */
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box {
+    background-color:#eee4da ;
+    color:rgb(129, 129, 129);
+
+}
+
+
+label {
+    text-align:center;
+    font-size:3vh;
+    font: weight 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+select {
+    padding: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
