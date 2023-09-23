@@ -26,6 +26,7 @@ const PROFUNDIDAD_MAXIMA = 15;
 *     3, 4, 7,
 *     1, 6, 0
 * ], 2);
+* Devuelve la solución más ordenada que encontró junto la posición en la que quedó la celda vacía y la lista de movimientos(que tiene la dirección y posición a la que se mueve)
 * @param {number[]} posiciones
 * @param {number} posicionVacia
 * @param {Movimiento[]} [movimientos]
